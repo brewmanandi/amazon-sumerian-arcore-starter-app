@@ -46,7 +46,15 @@ import javax.microedition.khronos.opengles.GL10;
 
 public class MainActivity extends AppCompatActivity implements GLSurfaceView.Renderer {
     private static final String TAG = MainActivity.class.getSimpleName();
-    private static final String SCENE_URL = "https://d1550wa51vq95s.cloudfront.net/3d19ea8069a94904849e8edeabe3ada0.scene/?arMode=true";
+    // Holy Shield
+    private static final String SCENE_URL = "https://eu-central-1.sumerian.aws/8317674ec5b144d7b2f3eaca07543687.scene/?arMode=true";
+
+
+    //private static final String SCENE_URL = "https://eu-central-1.sumerian.aws/8317674ec5b144d7b2f3eaca07543687.scene/?arMode=true";
+
+    // SD_AR
+    //private static final String SCENE_URL = "    https://eu-central-1.sumerian.aws/1afa18eb86dd41acb3457044f350081e.scene/?arMode=true";
+
     private static final String IMAGE_FILENAME = "SumerianAnchorImage.png";
     private static final float IMAGE_WIDTH_IN_METERS = (float)0.18;
 
